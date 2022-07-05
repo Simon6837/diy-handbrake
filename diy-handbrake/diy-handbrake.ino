@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  if (analogRead(A0) > 250) {
+  if (analogRead(A0) > 300) {
     Joystick.pressButton(0);
   } else {
     Joystick.releaseButton(0);
